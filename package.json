@@ -1,0 +1,27 @@
+{
+  "name": "browserify-jquery-ui",
+  "version": "1.0.0",
+  "description": "How to build an app with jQuery UI and browserify",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t deamdify index.js -o bundle.js"
+  },
+  "keywords": [
+    "jquery-ui",
+    "browserify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jzaefferer/browserify-jquery-ui.git"
+  },
+  "author": "Jörn Zaefferer",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "jquery-ui": "jquery/jquery-ui#master"
+  },
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "deamdify": "^0.1.1"
+  }
+}
